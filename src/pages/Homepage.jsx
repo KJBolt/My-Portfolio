@@ -5,6 +5,7 @@ import WorksSection from '../components/WorksSection';
 import AudioButton from '../components/AudioButton';
 import GetInTouch from '../components/GetInTouch';
 import Quote from '../components/Quote';
+import Experience from '../components/Experience';
 
 
 function Homepage() {
@@ -12,6 +13,7 @@ function Homepage() {
     <div>
         <HeroSection />
         <SkillsSection />
+        <Experience />
         <Quote />
         <WorksSection />
         <GetInTouch />

@@ -4,13 +4,13 @@ import useSound from 'use-sound';
 import { FaMusic } from "react-icons/fa";
 
 // Import your song
-import song from '../assets/song2.mp3'; 
+import song from '../assets/AC.mp3'; 
 
 function AudioButton() {
   // Initialize the useSound hook, adding an onend callback for looping the song
   const [play, { pause }] = useSound(song, {
     interrupt: true,
-    volume: 0.5,
+    volume: 0.4,
     loop: true
     // onend: () => {
     //   // Loop the song by playing it again when it ends

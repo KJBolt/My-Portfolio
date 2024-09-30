@@ -22,3 +22,11 @@ body{
     object-fit: cover;
     background-size: cover;
 }
+
+/* .getintouch{
+    background-image: url('./assets/contact.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    border: 1px solid red;
+} */

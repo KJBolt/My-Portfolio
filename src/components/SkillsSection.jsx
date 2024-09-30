@@ -18,18 +18,18 @@ import Ionic from '../assets/Ionic.svg'
 
 function SkillsSection() {
   return (
-    <div className='xl:h-screen h-auto mx-auto max-w-7xl grid md:grid-cols-2'>
+    <div className='xl:h-screen h-auto mx-auto max-w-7xl grid md:grid-cols-2 z-10'>
         <div className='flex flex-col justify-center items-center px-10 xl:pt-0 pt-20'>
           <div>
-            <h5 className='text-[#ffd317] text-[23px] font-semibold'>WHY ME</h5>
-            <h3 className='text-[#eeeeec] text-[46px] font-bold mb-5'>Serving you great time</h3>
-            <p className='text-[#eeeeec] text-lg font-sans w-[100%] sm:line-clamp-none line-clamp-2 mb-8'>
+            <h5 className='text-[#ffd317] text-[23px] font-semibold mb-2 md:mb-0'>Mission</h5>
+            <h3 className='text-[#eeeeec] text-[46px] font-bold mb-5 md:leading-none leading-[50px]'>Serving you great time</h3>
+            <p className='text-[#eeeeec] text-lg font-sans w-[100%] sm:line-clamp-none mb-8'>
               My mission is to empower businesses by transforming innovative ideas into robust, high-quality software solutions.
               Am committed to providing top-notch development services that deliver exceptional user experiences.
               The satisfaction of clients is my top priority, and strive to bring their vision to life with every line of code.
             </p>
 
-            <p className='text-[#eeeeec] text-lg font-sans w-[100%] sm:line-clamp-none line-clamp-2'>As we continue to evolve, my goal remains the same — to create impactful digital solutions that drive long-term success.</p>
+            <p className='text-[#eeeeec] text-lg font-sans w-[100%] sm:line-clamp-none'>As we continue to evolve, my goal remains the same — to create impactful digital solutions that drive long-term success.</p>
           </div>
         </div>
 
@@ -59,7 +59,7 @@ function SkillsSection() {
               <img src={Mysql} alt="Mysql" className='h-[40px] w-[40px]' />
             </div>
 
-            <h5 className='text-[#eeeeec] text-[23px] font-semibold mt-10 mb-3'>Mobile App Development</h5>
+            <h5 className='text-[#eeeeec] text-[23px] font-semibold mt-10 mb-3'>Mobile App</h5>
             <div className='flex flex-wrap items-center gap-4'>
               <img src={Flutter} alt="Flutter" className='h-[40px] w-[40px]' />
               <img src={Ionic} alt="Ionic" className='h-[40px] w-[40px]' />

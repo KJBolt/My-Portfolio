@@ -46,8 +46,8 @@ function HeroSection() {
                         <p className='text-[#eeeeec] font-sans capitalize'><span>✌🏻</span> Hi there! I'm Kenneth Rockson</p>
                     </div>
                     <div className='mb-5'>
-                        <p className='text-[#eeeeec] text-3xl md:text-5xl mb-2'><span className='text-[#f0c020] text-5xl md:text-7xl font-bold'>Frontend Developer</span> </p>
-                        <p className='text-[#eeeeec] text-lg font-sans md:w-[60%] w-[100%] sm:line-clamp-none line-clamp-2'>Driven by a passion for assisting clients and startups in realizing their dreams  through innovative web and mobile solutions.</p>
+                        <p className='text-[#eeeeec] text-3xl md:text-5xl mb-2 leading-[50px] md:leading-none'><span className='text-[#f0c020] text-5xl md:text-7xl font-bold'>Frontend Developer</span> </p>
+                        <p className='text-[#eeeeec] text-lg font-sans md:w-[60%] w-[100%] sm:line-clamp-none'>Driven by a passion for assisting clients and startups in realizing their dreams  through innovative web and mobile solutions.</p>
                     </div>
                     <div>
                         <a className='' href={require('../assets/CV.docx')} download>
