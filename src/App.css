@@ -1,0 +1,24 @@
+*{
+    font-family: "Staatliches", sans-serif;
+    font-style: normal;
+}
+
+body{
+    background: #000;
+}
+
+.hero{
+    background-image: url('./assets/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.quoteBg{
+    background-image: url('./assets/galaxy.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+}

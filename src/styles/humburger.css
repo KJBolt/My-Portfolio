@@ -1,0 +1,49 @@
+.hamburger-menu {
+    position: relative;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px; /* Adjust as necessary */
+    height: 20px; /* Adjust as necessary */
+    transition: all 0.3s ease; /* Transition for smoothness */
+  }
+  
+  .line {
+    background-color: white; /* Change to your preferred color */
+    border-radius: 10px;
+    transition: all 0.3s ease; /* Smooth transitions */
+  }
+
+  .line1{
+    width: 40px;
+    margin-bottom: 8px;
+    height: 10px;
+  }
+
+  .line2{
+    width: 40px;
+    margin-bottom: 8px;
+    height: 10px;
+  }
+
+  .line3{
+    width: 40px;
+    height: 10px;
+  }
+  
+  .open .line1 {
+    transform: rotate(45deg) translate(5px, 5px); /* Rotate line 1 */
+  }
+  
+  .open .line2 {
+    transform: rotate(-45deg) translate(5px, -5px); /* Rotate line 2 */
+  }
+  
+  .open .line3 {
+    opacity: 0; /* hide line 3 */
+  }
+  
