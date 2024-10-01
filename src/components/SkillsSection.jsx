@@ -15,6 +15,16 @@ import Mongodb from '../assets/Mongodb1.svg'
 import Mysql from '../assets/Mysql.svg'
 import Flutter from '../assets/Flutter.svg'
 import Ionic from '../assets/Ionic.svg'
+import Jwt from '../assets/Jwt.svg'
+import Rider from '../assets/Rider.svg'
+import Git from '../assets/Git.svg'
+import VsCode from '../assets/VsCode.svg'
+import Figma from '../assets/Figma.svg'
+import Photoshop from '../assets/Photoshop.svg'
+import AfterEffect from '../assets/AfterEffect.svg'
+import Redux from '../assets/Redux.svg'
+import Postman from '../assets/Postman.svg'
+import Firebase from '../assets/Firebase.svg'
 
 import { Tooltip } from 'react-tooltip'
 
@@ -74,7 +84,7 @@ function SkillsSection() {
               <img data-tooltip-id="Sass" data-tooltip-content="Sass" src={Sass} alt="Sass" className='h-[40px] w-[40px]' />
             </div>
 
-            <h5 className='text-[#eeeeec] text-[23px] font-semibold mt-10 mb-3'>Backend</h5>
+            <h5 className='text-[#eeeeec] text-[23px] font-semibold mt-10 mb-3'>Backend & Tools</h5>
             <div className='flex flex-wrap items-center gap-4'>
               <Tooltip id="Nodejs" />
               <img data-tooltip-id="Nodejs" data-tooltip-content="Nodejs" src={Nodejs} alt="Nodejs" className='h-[40px] w-[40px]' />
@@ -87,6 +97,36 @@ function SkillsSection() {
 
               <Tooltip id="Mysql" />
               <img data-tooltip-id="Mysql" data-tooltip-content="Mysql" src={Mysql} alt="Mysql" className='h-[40px] w-[40px]' />
+
+              <Tooltip id="Git" />
+              <img data-tooltip-id="Git" data-tooltip-content="Git" src={Git} alt="Git" className='h-[40px] w-[40px]' />
+
+              <Tooltip id="Rider" />
+              <img data-tooltip-id="Rider" data-tooltip-content="Rider" src={Rider} alt="Rider" className='h-[40px] w-[40px]' />
+
+              <Tooltip id="Jwt" />
+              <img data-tooltip-id="Jwt" data-tooltip-content="Jwt" src={Jwt} alt="Jwt" className='h-[40px] w-[40px]' />
+
+              <Tooltip id="Redux" />
+              <img data-tooltip-id="Redux" data-tooltip-content="Redux" src={Redux} alt="Redux" className='h-[40px] w-[40px]' />
+
+              <Tooltip id="Postman" />
+              <img data-tooltip-id="Postman" data-tooltip-content="Postman" src={Postman} alt="Postman" className='h-[40px] w-[40px]' />
+
+              <Tooltip id="Firebase" />
+              <img data-tooltip-id="Firebase" data-tooltip-content="Firebase" src={Firebase} alt="Firebase" className='h-[40px] w-[40px]' />
+
+              <Tooltip id="VsCode" />
+              <img data-tooltip-id="VsCode" data-tooltip-content="Vs Code" src={VsCode} alt="VsCode" className='h-[40px] w-[40px]' />
+
+              <Tooltip id="Figma" />
+              <img data-tooltip-id="Figma" data-tooltip-content="Figma" src={Figma} alt="Figma" className='h-[40px] w-[40px]' />
+
+              <Tooltip id="Photoshop" />
+              <img data-tooltip-id="Photoshop" data-tooltip-content="Photoshop" src={Photoshop} alt="Photoshop" className='h-[40px] w-[40px]' />
+
+              <Tooltip id="AfterEffect" />
+              <img data-tooltip-id="AfterEffect" data-tooltip-content="After Effect" src={AfterEffect} alt="AfterEffect" className='h-[40px] w-[40px]' />
             </div>
 
             <h5 className='text-[#eeeeec] text-[23px] font-semibold mt-10 mb-3'>Mobile App</h5>

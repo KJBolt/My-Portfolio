@@ -50,10 +50,50 @@ function HeroSection() {
                         <p className='text-[#eeeeec] text-lg font-sans md:w-[60%] w-[100%] sm:line-clamp-none'>Driven by a passion for assisting clients and startups in realizing their dreams  through innovative web and mobile solutions.</p>
                     </div>
                     <div>
-                        <a className='' href={require('../assets/CV.docx')} download>
-                            <div className='w-fit text-black text-lg py-3 px-10 rounded-md cursor-pointer bg-[#f0c020]'>
-                            Download CV
-                            </div>
+                        <a className=''>
+                        <button class="
+                            group
+                            p-5
+                            cursor-pointer 
+                            relative  
+                            text-xl 
+                            font-normal 
+                            border-0 
+                            flex 
+                            items-center 
+                            justify-center
+                            bg-transparent
+                            text-[#f0c020] 
+                            h-auto  
+                            w-[170px]  
+                            overflow-hidden   
+                            transition-all
+                            duration-100">
+                            <span class="
+                                group-hover:w-full
+                                absolute 
+                                left-0 
+                                h-full 
+                                w-5 
+                                border-y
+                                border-l
+                                border-[#f0c020]
+                                transition-all
+                                duration-500"
+                            >
+                            </span>
+
+                            <p class="group-hover:opacity-0 group-hover:translate-x-[-100%] absolute translate-x-0 transition-all
+                            duration-200">Download CV</p>
+
+                            <span class="group-hover:translate-x-0  group-hover:opacity-100 absolute  translate-x-full opacity-0  transition-all duration-200">Thank
+                                you!
+                            </span>
+
+                            <span
+                                class="group-hover:w-full absolute right-0 h-full w-5  border-y border-r  border-[#f0c020] transition-all duration-500">
+                            </span>
+                        </button>
                         </a>
                     </div>
                     
