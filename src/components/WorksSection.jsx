@@ -1,7 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Tickella from '../assets/Tickella.png';
-import Euphoria from '../assets/Euphoria.png';
 import { BsImage } from "react-icons/bs";
 import { FaBookOpen } from "react-icons/fa";
 import { RiGitRepositoryPrivateLine } from "react-icons/ri";
@@ -34,7 +33,6 @@ import Asiewie4 from '../assets/Asiewie4.png'
 import AsiewieOauth from '../assets/AsiewieOauth.png'
 import Asiewie5 from '../assets/Asiewie5.png'
 import Asiewie6 from '../assets/Asiewie6.png'
-
 
 // Portfolio Images
 import Portfolio1 from '../assets//Portfolio1.png'
@@ -178,7 +176,7 @@ function WorksSection() {
                 <SwiperSlide className='h-[100%]'>
                   <div className='h-[50%] relative group '>
                       <img src={Portfolio1} alt="Banner" className='h-[100%] w-[100%] object-cover group-hover:bg-[#c7c7c780] bg-[#eeeeec] opacity-100 group-hover:opacity-80 transition-opacity duration-300' />
-                      <div className='flex items-center gap-3 justify-center bg-[#0070f0] cursor-pointer transition-opacity duration-300 opacity-0 group-hover:opacity-100 w-fit  px-3 py-2 absolute top-1/2 left-1/3 rounded-md'>
+                      <div onClick={() => setPortfolioOpen(true)} className='flex items-center gap-3 justify-center bg-[#0070f0] cursor-pointer transition-opacity duration-300 opacity-0 group-hover:opacity-100 w-fit  px-3 py-2 absolute top-1/2 left-1/3 rounded-md'>
                         <BsImage className='text-2xl text-[#eeeeec]' />
                         <p className='font-sans text-[#eeeeec]'>Preview</p>
                       </div>
@@ -201,7 +199,7 @@ function WorksSection() {
                         <p className='font-sans text-xl text-[#f0c020] font-semibold'>Portfolio</p>
                         <p className='text-[#eeeeec] font-sans mb-5'>Gathered some inspiration online and created a portfolio website showcasing my works and experience</p>
 
-                        <a href='https://github.com/KJBolt/My-Portfolio' className='bg-[#19191b] rounded-sm cursor-pointer py-2 flex items-center gap-4 justify-center'>
+                        <a href='https://github.com/KJBolt/My-Portfolio' target="_blank" rel="noopener noreferrer" className='bg-[#19191b] rounded-sm cursor-pointer py-2 flex items-center gap-4 justify-center'>
                           <FaEye className='text-[#f0c020] text-3xl' />
                           <p className='text-[#eeeeec]'>View Repository</p>
                         </a>

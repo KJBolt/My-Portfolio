@@ -1,7 +1,13 @@
 import React from 'react';
 import { FaArrowsToDot } from "react-icons/fa6";
 
+
+
 function Experience() {
+    <script>
+  AOS.init();
+</script>
+    
   return (
     <div className='mx-auto max-w-7xl'>
         <div className='flex justify-center'>
@@ -11,9 +17,9 @@ function Experience() {
             </div>
         </div>
         <div className='items-center p-10'>
-            <div className='w-[100%] mb-8'>
+            <div className='w-[100%]'>
                 {/* First Content */}
-                <div className='p-5 border rounded-md border-dashed md:w-[50%] w-[100%]'>
+                <div data-aos="fade-left" className='p-5 bg-[#19191b] border border-amber-400 md:w-[50%] w-[100%] rounded-xl shadow-md relative'>
                     <div className='flex flex-row items-center mb-3'>
                         <p className='text-sm border-2 border-[#ffd317] rounded-xl px-3 text-[#eeeeec] mr-3'>2023 - Present</p>
                         <p className='text-xs text-[#eeeeec] font-sans'>Sensei Technology</p>
@@ -59,12 +65,12 @@ function Experience() {
                 </div>
 
                 {/* Second Content */}
-                <div className='flex'>
+                <div className='flex md:my-0 my-5'>
                     <div className='md:w-[50%] w-[100%] md:block hidden py-16'>
                         <div className='hidden'> 
                         </div>
                     </div>
-                    <div className='p-5 border md:w-[50%] w-[100%] rounded-md border-t border-l border-dashed'>
+                    <div data-aos="fade-right" className='p-5 bg-[#19191b] md:w-[50%] w-[100%] border border-amber-400  rounded-xl shadow-sm relative'>
                         <div>
                             <div className='flex flex-row items-center mb-3'>
                                 <p className='text-sm border-2 border-[#ffd317] rounded-xl px-3 text-[#eeeeec] mr-3'>2022</p>
@@ -98,8 +104,8 @@ function Experience() {
                 </div>
 
                 {/* Third Content */}
-                <div className='flex md:flex-row flex-col'>
-                    <div className='p-5 border md:w-[50%] w-[100%] rounded-md border-t border-l border-dashed'>
+                <div className='flex md:flex-row flex-col md:my-0 my-5'>
+                    <div data-aos="fade-left" className='p-5 bg-[#19191b] border border-amber-400 md:w-[50%] w-[100%] rounded-xl shadow-md relative'>
                         <div>
                             <div className='flex flex-row items-center mb-3'>
                                 <p className='text-sm border-2 border-[#ffd317] rounded-xl px-3 text-[#eeeeec] mr-3'>2022</p>
@@ -139,11 +145,11 @@ function Experience() {
 
 
                 {/* Fourth Content */}
-                <div className='flex'>
+                <div className='flex mb-10'>
                     <div className='md:w-[50%] w-[100%] md:block hidden py-16'>
                         <div className='hidden'></div>
                     </div>
-                    <div className='p-5 border md:w-[50%] w-[100%] rounded-md border-t border-l border-dashed'>
+                    <div data-aos="fade-right" className='p-5 bg-[#19191b] border border-amber-400 md:w-[50%] w-[100%] rounded-xl shadow-md relative'>
                         <div>
                             <div className='flex flex-row items-center mb-3'>
                                 <p className='text-sm border-2 border-[#ffd317] rounded-xl px-3 text-[#eeeeec] mr-3'>2019</p>

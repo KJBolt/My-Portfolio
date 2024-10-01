@@ -6,6 +6,7 @@ import AudioButton from '../components/AudioButton';
 import GetInTouch from '../components/GetInTouch';
 import Quote from '../components/Quote';
 import Experience from '../components/Experience';
+import Footer from '../components/Footer';
 
 
 function Homepage() {
@@ -18,6 +19,7 @@ function Homepage() {
         <WorksSection />
         <GetInTouch />
         <AudioButton />
+        <Footer />
     </div>
   )
 }

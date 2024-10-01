@@ -25,10 +25,10 @@ function HeroSection() {
         {/* Social Media Links */}
         <div className='absolute lg:flex  right-0 h-[600px] w-[70px] z-20 hidden flex-col justify-center'>
             <div className='bg-[#f0c020] h-[250px] rounded-tl-md rounded-bl-md flex flex-col justify-center items-center'>
-                <a href="https://www.linkedin.com/in/kenneth-rockson-35956119b/" className='mb-8'>
+                <a href="https://www.linkedin.com/in/kenneth-rockson-35956119b/" target="_blank" rel="noopener noreferrer" className='mb-8'>
                     <ImLinkedin className='text-4xl hover:text-5xl transition-all ease-in-out' />
                 </a>
-                <a href="https://github.com/KJBolt" className='mb-8'>
+                <a href="https://github.com/KJBolt" target="_blank" rel="noopener noreferrer" className='mb-8'>
                     <FaGithub className='text-4xl hover:text-5xl transition-all ease-in-out' />
                 </a>
             </div>
@@ -38,7 +38,7 @@ function HeroSection() {
         {/* Main Content */}
         <div className=" h-auto lg:h-[600px] w-[100%] border-blue-500 flex flex-col lg:flex-row z-10 overflow-hidden">
             <div className='flex flex-col lg:w-[30%] w-[100%] lg:items-end sm:items-start items-center justify-center pt-16 lg:pt-0 px-10'>
-                <img className='rounded-full h-[200px] w-[200px] animate-bounce' src={Image} alt="Image" />
+                <img className='rounded-full h-[200px] w-[200px] animate-bounce' src={Image} alt="Profile" />
             </div>
             <div className='h-[100%] flex flex-col items-center justify-center lg:w-[70%] pt-10 md:pt-0 w-[100%] pb-16 lg:pb-0 '>
                 <div className='px-10 flex flex-col justify-center w-fit'>

@@ -14,17 +14,19 @@ function GetInTouch() {
       </div>
 
       
-      <div className='h-auto grid md:grid-cols-2 p-10 w-[100%] overflow-x-hidden'>
+      
+      <div className='h-auto flex-col flex md:flex-row justify-center md:col p-10 w-[100%] overflow-x-hidden'>
         {/* Image */}
-        <div className='h-[450px] flex flex-col justify-center items-center mb-5'>
+        <div data-aos="flip-left" className='h-[450px] flex flex-col justify-center items-center mb-5'>
           <div className='h-[100%] rounded-md overflow-hidden'>
             <img src={Contact} alt="ContactImage" className='h-[100%] object-cover' />
           </div>
         </div>
-        
-        <div className='flex flex-col items-start justify-center font-medium px-5'>
+
+        {/* Content */}
+        <div data-aos="fade-right" data-aos-delay="200" className='flex flex-col items-start font-medium px-10 py-10 w-[100%] md:w-[40%]'>
           <h5 className='text-[#eeeeec] text-2xl font-normal text-left mb-3'><span className='text-[#ffd317]'>Reach Out</span> to Me</h5>
-          <p className='text-[#eeeeec] font-sans font-light lg:w-[60%] w-[100%] mb-5'>Let's build something amazing together! Connect with me on these handles to discuss ideas, projects, or just say hello!</p>
+          <p className='text-[#eeeeec] font-sans font-light lg:w-[60%] w-[100%] mb-5'>Let's build something amazing together! Connect with me to discuss ideas, projects, or just say hello!</p>
 
           <p className='text-[#eeeeec] text-xl font-normal font-sans mb-3'>Lets have a discussion</p>
           <div className='flex flex-col gap-2'>
@@ -39,7 +41,6 @@ function GetInTouch() {
             </div>
           </div>
         </div>
-
         
       </div>
     </div>
