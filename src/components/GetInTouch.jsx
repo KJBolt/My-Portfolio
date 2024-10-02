@@ -24,7 +24,7 @@ function GetInTouch() {
         </div>
 
         {/* Content */}
-        <div data-aos="fade-right" data-aos-delay="200" className='flex flex-col items-start font-medium px-10 py-10 w-[100%] md:w-[40%]'>
+        <div data-aos="fade-right" data-aos-delay="200" className='flex flex-col items-start font-medium px-0 md:px-10 py-10 w-[100%] md:w-[40%]'>
           <h5 className='text-[#eeeeec] text-2xl font-normal text-left mb-3'><span className='text-[#ffd317]'>Reach Out</span> to Me</h5>
           <p className='text-[#eeeeec] font-sans font-light lg:w-[60%] w-[100%] mb-5'>Let's build something amazing together! Connect with me to discuss ideas, projects, or just say hello!</p>
 

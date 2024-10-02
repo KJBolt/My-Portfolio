@@ -28,35 +28,35 @@ function Experience() {
                         <p className='text-lg font-semibold font-sans mb-1 text-[#eeeeec]'>Frontend Developer</p>
                         <div className='flex gap-3 items-center '>
                             <FaArrowsToDot className='text-[#ffd317] tex-3xl' />
-                            <p className='text-md text-[#eeeeec] text-justify font-sans font-light mb-3'>
+                            <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
                                 Collaborate with designers and back-end developers to gather requirements and translate them into functional user interfaces
                             </p>
                         </div>
                         
                         <div className='flex gap-3 items-center '>
                             <FaArrowsToDot className='text-[#ffd317] tex-3xl' />
-                            <p className='text-md text-[#eeeeec] text-justify font-sans font-light mb-3'>
+                            <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
                                 Utilize front-end frameworks like React, or Vue.js to build dynamic and interactive user interfaces. 
                             </p>
                         </div>
 
                         <div className='flex gap-3 items-center '>
                             <FaArrowsToDot className='text-[#ffd317] tex-3xl' />
-                            <p className='text-md text-[#eeeeec] text-justify font-sans font-light mb-3'>
+                            <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
                                 Conduct thorough testing and debugging to deliver high-quality, bug-free code 
                             </p>
                         </div>
 
                         <div className='flex gap-3 items-center '>
                             <FaArrowsToDot className='text-[#ffd317] tex-3xl' />
-                            <p className='text-md text-[#eeeeec] text-justify font-sans font-light mb-3'>
+                            <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
                                 Ensure that web applications are compatible and responsive across various devices and screen sizes 
                             </p>
                         </div>
 
                         <div className='flex gap-3 items-center '>
                             <FaArrowsToDot className='text-[#ffd317] tex-3xl' />
-                            <p className='text-md text-[#eeeeec] text-justify font-sans font-light mb-3'>
+                            <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
                                 Consume API endpoints to fetch and display data in a user-friendly manner
 
                             </p>
@@ -80,21 +80,21 @@ function Experience() {
                                 <p className='text-lg font-semibold font-sans mb-1 text-[#eeeeec]'>Frontend Developer</p>
                                 <div className='flex gap-3 items-center '>
                                     <FaArrowsToDot className='text-[#ffd317] tex-3xl' />
-                                    <p className='text-md text-[#eeeeec] text-justify font-sans font-light mb-3'>
+                                    <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
                                         Create user-friendly, responsive, and visually appealing layouts using HTML, Tailwind Css and React
                                     </p>
                                 </div>
                         
                             <div className='flex gap-3 items-center '>
                                 <FaArrowsToDot className='text-[#ffd317] tex-3xl' />
-                                <p className='text-md text-[#eeeeec] text-justify font-sans font-light mb-3'>
+                                <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
                                     Optimize UI for various devices to ensure a seamless user experience. 
                                 </p>
                             </div>
 
                             <div className='flex gap-3 items-center '>
                                 <FaArrowsToDot className='text-[#ffd317] tex-3xl' />
-                                <p className='text-md text-[#eeeeec] text-justify font-sans font-light mb-3'>
+                                <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
                                     Work closely with backend developers to ensure seamless integration and optimization
                                 </p>
                             </div>
@@ -116,7 +116,7 @@ function Experience() {
 
                                 <div className='flex gap-3 items-center '>
                                     <FaArrowsToDot className='text-[#ffd317] tex-3xl' />
-                                    <p className='text-md text-[#eeeeec] text-justify font-sans font-light mb-3'>
+                                    <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
                                         Assist in code review/debugging, offer insight into fixes, as well as host zoom 
                                         meetings with colleagues to facilitate sharing of ideas, work progress, and guidance 
                                     </p>
@@ -124,14 +124,14 @@ function Experience() {
                                 
                                 <div className='flex gap-3 items-center '>
                                     <FaArrowsToDot className='text-[#ffd317] tex-3xl' />
-                                    <p className='text-md text-[#eeeeec] text-justify font-sans font-light mb-3'>
+                                    <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
                                         Develop responsive and visually engaging web applications using HTML, CSS, and JavaScript 
                                     </p>
                                 </div>
 
                                 <div className='flex gap-3 items-center '>
                                     <FaArrowsToDot className='text-[#ffd317] tex-3xl' />
-                                    <p className='text-md text-[#eeeeec] text-justify font-sans font-light mb-3'>
+                                    <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
                                         Work closely with teamates to determine problems, testing methods, and best practices. 
                                     </p>
                                 </div>
@@ -160,21 +160,21 @@ function Experience() {
 
                                 <div className='flex gap-3 items-center '>
                                     <FaArrowsToDot className='text-[#ffd317] tex-3xl' />
-                                    <p className='text-md text-[#eeeeec] text-justify font-sans font-light mb-3'>
+                                    <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
                                         Develop and maintain web and mobile applications for startup companies
                                     </p>
                                 </div>
                                 
                                 <div className='flex gap-3 items-center '>
                                     <FaArrowsToDot className='text-[#ffd317] tex-3xl' />
-                                    <p className='text-md text-[#eeeeec] text-justify font-sans font-light mb-3'>
+                                    <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
                                         Utilize React, and Node.js to build responsive, user-friendly interfaces and implemented features such as payment processing, real-time data syncing, and user authentication. 
                                     </p>
                                 </div>
 
                                 <div className='flex gap-3 items-center '>
                                     <FaArrowsToDot className='text-[#ffd317] tex-3xl' />
-                                    <p className='text-md text-[#eeeeec] text-justify font-sans font-light mb-3'>
+                                    <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
                                         Collaborate with designers, project managers, and other developers to deliver projects on time and within budget.
                                     </p>
                                 </div>

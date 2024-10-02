@@ -99,9 +99,9 @@ function WorksSection() {
                 <SwiperSlide className='h-[100%]'>
                   <div className='h-[50%] group relative'>
                       <img src={Tesacon3} alt="Banner" className='h-[100%] w-[100%] object-cover group-hover:bg-[#c7c7c780] bg-[#eeeeec] opacity-100 group-hover:opacity-80 transition-opacity duration-300' />
-                      <div onClick={() => setTesaconOpen(true)} className='flex items-center gap-3 justify-center bg-[#0070f0] cursor-pointer transition-opacity duration-300 opacity-0 group-hover:opacity-100 w-fit  px-3 py-2 absolute top-1/2 left-1/3 rounded-md'>
-                        <BsImage className='text-2xl text-[#eeeeec]' />
-                        <p className='font-sans text-[#eeeeec]'>Preview</p>
+                      <div onClick={() => setTesaconOpen(true)} className='flex items-center gap-3 justify-center bg-[#f0c020] cursor-pointer transition-opacity duration-300 opacity-0 group-hover:opacity-100 w-fit  px-3 py-2 absolute top-1/2 left-1/3 rounded-md'>
+                        <BsImage className='text-2xl text-black' />
+                        <p className='font-sans text-black'>Preview</p>
                       </div>
 
                       <Lightbox
@@ -134,9 +134,9 @@ function WorksSection() {
                 <SwiperSlide className='h-[100%]'>
                   <div className='h-[50%] group relative'>
                       <img src={Tickella} alt="Banner" className='h-[100%] w-[100%] object-cover group-hover:bg-[#c7c7c780] bg-[#eeeeec] opacity-100 group-hover:opacity-80 transition-opacity duration-300' />
-                      <div onClick={() => setTickellaOpen(true)} className='flex items-center gap-3 justify-center bg-[#0070f0] cursor-pointer transition-opacity duration-300 opacity-0 group-hover:opacity-100 w-fit  px-3 py-2 absolute top-1/2 left-1/3 rounded-md'>
-                        <BsImage className='text-2xl text-[#eeeeec]' />
-                        <p className='font-sans text-[#eeeeec]'>Preview</p>
+                      <div onClick={() => setTickellaOpen(true)} className='flex items-center gap-3 justify-center bg-[#f0c020] cursor-pointer transition-opacity duration-300 opacity-0 group-hover:opacity-100 w-fit  px-3 py-2 absolute top-1/2 left-1/3 rounded-md'>
+                        <BsImage className='text-2xl text-black' />
+                        <p className='font-sans text-black'>Preview</p>
                       </div>
 
                       <Lightbox
@@ -178,9 +178,9 @@ function WorksSection() {
                 <SwiperSlide className='h-[100%]'>
                   <div className='h-[50%] group relative'>
                       <img src={Asiewie4} alt="Banner" className='h-[100%] w-[100%] object-cover group-hover:bg-[#c7c7c780] bg-[#eeeeec] opacity-100 group-hover:opacity-80 transition-opacity duration-300' />
-                      <div onClick={() => setAsiewieOpen(true)} className='flex items-center gap-3 justify-center bg-[#0070f0] cursor-pointer transition-opacity duration-300 opacity-0 group-hover:opacity-100 w-fit  px-3 py-2 absolute top-1/2 left-1/3 rounded-md'>
-                        <BsImage className='text-2xl text-[#eeeeec]' />
-                        <p className='font-sans text-[#eeeeec]'>Preview</p>
+                      <div onClick={() => setAsiewieOpen(true)} className='flex items-center gap-3 justify-center bg-[#f0c020] cursor-pointer transition-opacity duration-300 opacity-0 group-hover:opacity-100 w-fit  px-3 py-2 absolute top-1/2 left-1/3 rounded-md'>
+                        <BsImage className='text-2xl text-black' />
+                        <p className='font-sans text-black'>Preview</p>
                       </div>
 
                       <Lightbox
@@ -217,9 +217,9 @@ function WorksSection() {
                 <SwiperSlide className='h-[100%]'>
                   <div className='h-[50%] group relative'>
                       <img src={Portfolio1} alt="Banner" className='h-[100%] w-[100%] object-cover group-hover:bg-[#c7c7c780] bg-[#eeeeec] opacity-100 group-hover:opacity-80 transition-opacity duration-300' />
-                      <div onClick={() => setPortfolioOpen(true)} className='flex items-center gap-3 justify-center bg-[#0070f0] cursor-pointer transition-opacity duration-300 opacity-0 group-hover:opacity-100 w-fit  px-3 py-2 absolute top-1/2 left-1/3 rounded-md'>
-                        <BsImage className='text-2xl text-[#eeeeec]' />
-                        <p className='font-sans text-[#eeeeec]'>Preview</p>
+                      <div onClick={() => setPortfolioOpen(true)} className='flex items-center gap-3 justify-center bg-[#f0c020] cursor-pointer transition-opacity duration-300 opacity-0 group-hover:opacity-100 w-fit  px-3 py-2 absolute top-1/2 left-1/3 rounded-md'>
+                        <BsImage className='text-2xl text-black' />
+                        <p className='font-sans text-black'>Preview</p>
                       </div>
 
                       <Lightbox
