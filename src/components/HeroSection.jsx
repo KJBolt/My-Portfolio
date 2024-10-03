@@ -51,7 +51,7 @@ function HeroSection() {
                     </div>
                     <div>
                         <div>
-                        <button class="
+                        <a href="https://www.linkedin.com/in/kenneth-rockson-35956119b/" target="_blank" rel="noopener noreferrer" class="
                             group
                             p-5
                             relative  
@@ -85,13 +85,13 @@ function HeroSection() {
                             <p class="group-hover:opacity-0 group-hover:translate-x-[-100%] absolute translate-x-0 transition-all
                             duration-200">Download CV</p>
 
-                            <span class="group-hover:translate-x-0  group-hover:opacity-100 absolute  translate-x-full opacity-0  transition-all duration-200">Contact me
+                            <span class="group-hover:translate-x-0  group-hover:opacity-100 absolute  translate-x-full opacity-0  transition-all duration-200">Message me
                             </span>
 
                             <span
                                 class="group-hover:w-full absolute right-0 h-full w-5  border-y border-r  border-[#f0c020] transition-all duration-500">
                             </span>
-                        </button>
+                        </a>
                         </div>
                     </div>
                     

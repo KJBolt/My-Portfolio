@@ -16,12 +16,9 @@ import Mysql from '../assets/Mysql.svg'
 import Flutter from '../assets/Flutter.svg'
 import Ionic from '../assets/Ionic.svg'
 import Jwt from '../assets/Jwt.svg'
-import Rider from '../assets/Rider.svg'
 import Git from '../assets/Git.svg'
 import VsCode from '../assets/VsCode.svg'
 import Figma from '../assets/Figma.svg'
-import Photoshop from '../assets/Photoshop.svg'
-import AfterEffect from '../assets/AfterEffect.svg'
 import Redux from '../assets/Redux.svg'
 import Postman from '../assets/Postman.svg'
 import Firebase from '../assets/Firebase.svg'
@@ -101,9 +98,6 @@ function SkillsSection() {
               <Tooltip id="Git" />
               <img data-tooltip-id="Git" data-tooltip-content="Git" src={Git} alt="Git" className='h-[40px] w-[40px]' />
 
-              <Tooltip id="Rider" />
-              <img data-tooltip-id="Rider" data-tooltip-content="Rider" src={Rider} alt="Rider" className='h-[40px] w-[40px]' />
-
               <Tooltip id="Jwt" />
               <img data-tooltip-id="Jwt" data-tooltip-content="Jwt" src={Jwt} alt="Jwt" className='h-[40px] w-[40px]' />
 
@@ -121,12 +115,6 @@ function SkillsSection() {
 
               <Tooltip id="Figma" />
               <img data-tooltip-id="Figma" data-tooltip-content="Figma" src={Figma} alt="Figma" className='h-[40px] w-[40px]' />
-
-              <Tooltip id="Photoshop" />
-              <img data-tooltip-id="Photoshop" data-tooltip-content="Photoshop" src={Photoshop} alt="Photoshop" className='h-[40px] w-[40px]' />
-
-              <Tooltip id="AfterEffect" />
-              <img data-tooltip-id="AfterEffect" data-tooltip-content="After Effect" src={AfterEffect} alt="AfterEffect" className='h-[40px] w-[40px]' />
             </div>
 
             <h5 className='text-[#eeeeec] text-[23px] font-semibold mt-10 mb-3'>Mobile App</h5>

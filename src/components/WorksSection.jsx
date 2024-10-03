@@ -233,7 +233,7 @@ function WorksSection() {
                       />
 
                       <div className='bg-[#3f4045]  py-1 w-fit text-[#eeeeec] rounded-full px-3 mt-2'>
-                        <p className='font-sans text-md'>Mobile App</p>
+                        <p className='font-sans text-md'>Web Project</p>
                       </div>
 
                       <div className='py-5'>
