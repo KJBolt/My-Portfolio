@@ -7,8 +7,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 
-
-
 function HeroSection() {
     // When the component is mounted start fireworks
     useEffect(() => {
