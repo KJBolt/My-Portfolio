@@ -68,7 +68,7 @@ function WorksSection() {
                 </div>
             </div>
 
-            <div data-aos="fade-up" className='w-[100%] h-auto p-8'>
+            <div className='w-[100%] h-auto p-8'>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={30}

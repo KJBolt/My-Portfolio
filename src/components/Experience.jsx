@@ -19,7 +19,7 @@ function Experience() {
         <div className='p-10'>
             <div className='w-[100%]'>
                 {/* First Content */}
-                <div data-aos="flip-left" className='p-5 bg-[#19191b] border border-amber-400 md:w-[50%] w-[100%] rounded-xl shadow-md overflow-x-auto'>
+                <div className='p-5 bg-[#19191b] border border-amber-400 md:w-[50%] w-[100%] rounded-xl shadow-md overflow-x-auto'>
                     <div className='flex flex-row items-center mb-3'>
                         <p className='text-sm border-2 border-[#ffd317] rounded-xl px-3 text-[#eeeeec] mr-3'>2023 - Present</p>
                         <p className='text-xs text-[#eeeeec] font-sans'>Sensei Technology</p>
@@ -65,7 +65,7 @@ function Experience() {
                 </div>
 
                 {/* Second Content */}
-                <div data-aos="flip-left" className='flex md:my-0 my-5'>
+                <div className='flex md:my-0 my-5'>
                     <div className='md:w-[50%] w-[100%] md:block hidden py-16'>
                         <div className='hidden'> 
                         </div>
@@ -104,7 +104,7 @@ function Experience() {
                 </div>
 
                 {/* Third Content */}
-                <div data-aos="flip-left" className='flex md:flex-row flex-col md:my-0 my-5'>
+                <div className='flex md:flex-row flex-col md:my-0 my-5'>
                     <div className='p-5 bg-[#19191b] border border-amber-400 md:w-[50%] w-[100%] rounded-xl shadow-md'>
                         <div>
                             <div className='flex flex-row items-center mb-3'>
@@ -145,7 +145,7 @@ function Experience() {
 
 
                 {/* Fourth Content */}
-                <div data-aos="flip-left" className='flex mb-10'>
+                <div className='flex mb-10'>
                     <div className='md:w-[50%] w-[100%] md:block hidden py-16'>
                         <div className='hidden'></div>
                     </div>

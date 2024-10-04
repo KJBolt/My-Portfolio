@@ -29,7 +29,7 @@ function SkillsSection() {
   return (
     <div className='xl:h-screen h-auto mx-auto max-w-7xl grid md:grid-cols-2 z-10'>
       {/* Left Section */}
-        <div data-aos="fade-up" className='flex flex-col justify-center items-center px-10 xl:pt-0 pt-20'>
+        <div className='flex flex-col justify-center items-center px-10 xl:pt-0 pt-20'>
           <div>
             <h5 className='text-[#ffd317] text-[23px] font-semibold mb-2 md:mb-0'>Mission</h5>
             <h3 className='text-[#eeeeec] text-[46px] font-bold mb-5 md:leading-none leading-[50px]'>Serving you great time</h3>
@@ -44,7 +44,7 @@ function SkillsSection() {
         </div>
 
         {/* Right Section */}
-        <div data-aos="fade-up" data-aos-delay="100" className='flex flex-col justify-center items-center px-10 xl:pt-0 pt-20 xl:pb-0 pb-32'>
+        <div className='flex flex-col justify-center items-center px-10 xl:pt-0 pt-20 xl:pb-0 pb-32'>
           <div>
             <h5 className='text-[#ffd317] text-[23px] font-semibold mb-5'>My Skills</h5>
 
