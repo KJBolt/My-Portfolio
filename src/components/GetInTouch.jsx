@@ -5,6 +5,7 @@ import Contact from '../assets/contact.jpg';
 import Whatsapp from '../assets/Whatsapp.svg';
 import Telegram from '../assets/Telegram.svg';
 import Linkedin from '../assets/Linkedin.svg';
+import { MdOutlineLocationOn } from "react-icons/md";
 
 function GetInTouch() {
   return (
@@ -41,6 +42,10 @@ function GetInTouch() {
             <div className='flex items-center gap-3'>
               <MdEmail className='text-2xl text-[#ffd317]' />
               <p className='text-[#eeeeec] font-sans font-light'>kennethrockson026@gmail.com</p>
+            </div>
+            <div className='flex items-center gap-3'>
+              <MdOutlineLocationOn className='text-2xl text-[#ffd317]' />
+              <p className='text-[#eeeeec] font-sans font-light'>Located in Accra, Ghana</p>
             </div>
 
             <div className='flex flex-wrap gap-4 mt-3'>
