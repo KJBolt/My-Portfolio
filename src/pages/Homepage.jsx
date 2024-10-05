@@ -14,7 +14,7 @@ function Homepage() {
     <div>
         <HeroSection />
         <SkillsSection />
-        <Experience />
+        <Experience classname="overflow-x-hidden" />
         <Quote />
         <WorksSection />
         <GetInTouch />

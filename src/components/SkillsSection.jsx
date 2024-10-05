@@ -125,10 +125,9 @@ function SkillsSection() {
               <Tooltip id="Ionic" />
               <img data-tooltip-id="Ionic" data-tooltip-content="Ionic" src={Ionic} alt="Ionic" className='h-[40px] w-[40px]' />
             </div>
-
-
           </div>
         </div>
+
     </div>
   )
 }

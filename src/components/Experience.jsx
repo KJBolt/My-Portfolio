@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaArrowsToDot } from "react-icons/fa6";
+import {motion} from 'framer-motion'
 
 
 
@@ -19,7 +20,16 @@ function Experience() {
         <div className='p-10'>
             <div className='w-[100%]'>
                 {/* First Content */}
-                <div className='p-5 bg-[#19191b] border border-amber-400 md:w-[50%] w-[100%] rounded-xl shadow-md overflow-x-auto'>
+                <motion.div className='p-5 bg-[#19191b] border border-amber-400 md:w-[50%] w-[100%] rounded-xl shadow-md overflow-x-auto'
+                    initial={{ opacity: 0, x: 100 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ 
+                        type: "spring",
+                        bounce: 0.4,
+                        duration: 0.8
+                    }}
+                    viewport= {{ once: true }}
+                >
                     <div className='flex flex-row items-center mb-3'>
                         <p className='text-sm border-2 border-[#ffd317] rounded-xl px-3 text-[#eeeeec] mr-3'>2023 - Present</p>
                         <p className='text-xs text-[#eeeeec] font-sans'>Sensei Technology</p>
@@ -62,7 +72,7 @@ function Experience() {
                             </p>
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Second Content */}
                 <div className='flex md:my-0 my-5'>
@@ -70,7 +80,16 @@ function Experience() {
                         <div className='hidden'> 
                         </div>
                     </div>
-                    <div className='p-5 bg-[#19191b] md:w-[50%] w-[100%] border border-amber-400  rounded-xl shadow-sm'>
+                    <motion.div className='p-5 bg-[#19191b] md:w-[50%] w-[100%] border border-amber-400 overflow-x-hidden rounded-xl shadow-sm'
+                        initial={{ opacity: 0, x: -100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ 
+                            type: "spring",
+                            bounce: 0.4,
+                            duration: 0.8
+                        }}
+                        viewport= {{ once: true }}
+                    >
                         <div>
                             <div className='flex flex-row items-center mb-3'>
                                 <p className='text-sm border-2 border-[#ffd317] rounded-xl px-3 text-[#eeeeec] mr-3'>2022</p>
@@ -100,11 +119,20 @@ function Experience() {
                             </div>
                             </div>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
 
                 {/* Third Content */}
-                <div className='flex md:flex-row flex-col md:my-0 my-5'>
+                <motion.div className='flex md:flex-row flex-col md:my-0 my-5'
+                    initial={{ opacity: 0, x: 100 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ 
+                        type: "spring",
+                        bounce: 0.4,
+                        duration: 0.8
+                    }}
+                    viewport= {{ once: true }}
+                >
                     <div className='p-5 bg-[#19191b] border border-amber-400 md:w-[50%] w-[100%] rounded-xl shadow-md'>
                         <div>
                             <div className='flex flex-row items-center mb-3'>
@@ -141,11 +169,20 @@ function Experience() {
                     <div className='md:w-[50%] w-[100%] py-16 md:block hidden'>
                         <div className='hidden'></div>
                     </div> 
-                </div>
+                </motion.div>
 
 
                 {/* Fourth Content */}
-                <div className='flex mb-10'>
+                <motion.div className='flex mb-10'
+                    initial={{ opacity: 0, x: -100 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ 
+                        type: "spring",
+                        bounce: 0.4,
+                        duration: 0.8
+                    }}
+                    viewport= {{ once: true }}
+                >
                     <div className='md:w-[50%] w-[100%] md:block hidden py-16'>
                         <div className='hidden'></div>
                     </div>
@@ -181,7 +218,7 @@ function Experience() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 
 

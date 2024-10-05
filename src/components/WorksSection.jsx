@@ -6,6 +6,7 @@ import { RiGitRepositoryPrivateLine } from "react-icons/ri";
 import { FaEye } from "react-icons/fa";
 import { Lightbox } from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import {motion} from 'framer-motion';
 
 // Tickella Images
 import TickellaHome from '../assets/Tickella.png'
@@ -52,6 +53,26 @@ import 'swiper/css/pagination';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 
+const containerAnimation = {
+  offscreen: {},
+  onscreen: {
+    transition: {
+      staggerChildren: 0.15
+    }
+  }
+}
+
+const childrenAnimation = {
+  offscreen: { y: 100, opacity: 0 },
+  onscreen: { y: 0, opacity: 1 },
+  transition: {
+    type: 'spring',
+    bounce: 0.5,
+    duration: 0.3
+  },
+}
+
+
 function WorksSection() {
   const [tickellaOpen, setTickellaOpen] = React.useState(false);
   const [asiewieOpen, setAsiewieOpen] = React.useState(false);
@@ -68,7 +89,7 @@ function WorksSection() {
                 </div>
             </div>
 
-            <div className='w-[100%] h-auto p-8'>
+            <motion.div className='w-[100%] h-auto p-8' variants={containerAnimation} viewport={{ once: true }} initial='offscreen' whileInView='onscreen'>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
@@ -76,7 +97,7 @@ function WorksSection() {
                     clickable: true,
                 }}
                 autoplay={{
-                  delay: 2500,
+                  delay: 5000,
                   disableOnInteraction: false,
                 }}
                 modules={[Autoplay, Pagination, Navigation]}
@@ -97,7 +118,10 @@ function WorksSection() {
                 className="mySwiper w-[100%] h-[500px]"
             >
                 <SwiperSlide className='h-[100%]'>
-                  <div className='h-[50%] group relative'>
+                  <motion.div className='h-[50%] group relative'
+                    variants={childrenAnimation}
+                    viewport={{ once: true }}
+                  >
                       <img src={Tesacon3} alt="Banner" className='h-[100%] w-[100%] object-cover group-hover:bg-[#c7c7c780] bg-[#eeeeec] opacity-100 group-hover:opacity-80 transition-opacity duration-300' />
                       <div onClick={() => setTesaconOpen(true)} className='flex items-center gap-3 justify-center bg-[#f0c020] cursor-pointer transition-opacity duration-300 opacity-0 group-hover:opacity-100 w-fit  px-3 py-2 absolute top-1/2 left-1/3 rounded-md'>
                         <BsImage className='text-2xl text-black' />
@@ -127,12 +151,15 @@ function WorksSection() {
                           <p className='text-[#eeeeec]'>Repository is private</p>
                         </div>
                       </div>
-                  </div>
+                  </motion.div>
                 </SwiperSlide>
 
 
                 <SwiperSlide className='h-[100%]'>
-                  <div className='h-[50%] group relative'>
+                  <motion.div className='h-[50%] group relative'
+                    variants={childrenAnimation}
+                    viewport={{ once: true }}
+                  >
                       <img src={Tickella} alt="Banner" className='h-[100%] w-[100%] object-cover group-hover:bg-[#c7c7c780] bg-[#eeeeec] opacity-100 group-hover:opacity-80 transition-opacity duration-300' />
                       <div onClick={() => setTickellaOpen(true)} className='flex items-center gap-3 justify-center bg-[#f0c020] cursor-pointer transition-opacity duration-300 opacity-0 group-hover:opacity-100 w-fit  px-3 py-2 absolute top-1/2 left-1/3 rounded-md'>
                         <BsImage className='text-2xl text-black' />
@@ -172,11 +199,14 @@ function WorksSection() {
                           <p className='text-[#eeeeec]'>Repository is private</p>
                         </div>
                       </div>
-                  </div>
+                  </motion.div>
                 </SwiperSlide>
 
                 <SwiperSlide className='h-[100%]'>
-                  <div className='h-[50%] group relative'>
+                  <motion.div className='h-[50%] group relative'
+                    variants={childrenAnimation}
+                    viewport={{ once: true }}
+                  >
                       <img src={Asiewie4} alt="Banner" className='h-[100%] w-[100%] object-cover group-hover:bg-[#c7c7c780] bg-[#eeeeec] opacity-100 group-hover:opacity-80 transition-opacity duration-300' />
                       <div onClick={() => setAsiewieOpen(true)} className='flex items-center gap-3 justify-center bg-[#f0c020] cursor-pointer transition-opacity duration-300 opacity-0 group-hover:opacity-100 w-fit  px-3 py-2 absolute top-1/2 left-1/3 rounded-md'>
                         <BsImage className='text-2xl text-black' />
@@ -211,11 +241,14 @@ function WorksSection() {
                           <p className='text-[#eeeeec]'>Repository is private</p>
                         </div>
                       </div>
-                  </div>
+                  </motion.div>
                 </SwiperSlide>
 
                 <SwiperSlide className='h-[100%]'>
-                  <div className='h-[50%] group relative'>
+                  <motion.div className='h-[50%] group relative'
+                    variants={childrenAnimation}
+                    viewport={{ once: true }}
+                  >
                       <img src={Portfolio1} alt="Banner" className='h-[100%] w-[100%] object-cover group-hover:bg-[#c7c7c780] bg-[#eeeeec] opacity-100 group-hover:opacity-80 transition-opacity duration-300' />
                       <div onClick={() => setPortfolioOpen(true)} className='flex items-center gap-3 justify-center bg-[#f0c020] cursor-pointer transition-opacity duration-300 opacity-0 group-hover:opacity-100 w-fit  px-3 py-2 absolute top-1/2 left-1/3 rounded-md'>
                         <BsImage className='text-2xl text-black' />
@@ -245,10 +278,10 @@ function WorksSection() {
                           <p className='text-[#eeeeec]'>View Repository</p>
                         </a>
                       </div>
-                  </div>
+                  </motion.div>
                 </SwiperSlide>
             </Swiper>
-            </div>
+            </motion.div>
 
         </div>
     </div>
