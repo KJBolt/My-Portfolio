@@ -22,14 +22,46 @@ import Figma from '../assets/Figma.svg'
 import Redux from '../assets/Redux.svg'
 import Postman from '../assets/Postman.svg'
 import Firebase from '../assets/Firebase.svg'
+import { motion } from 'framer-motion'
 
 import { Tooltip } from 'react-tooltip'
+
+const leftVariants = {
+  initial:{
+    x: -80,
+    opacity: 0
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.8,
+      stiffness: 50
+    }
+  }
+}
+
+const rightVariants = {
+  initial:{
+    y: 30,
+    opacity: 0
+  },
+  animate: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.8,
+      stiffness: 50,
+      delay: 0.1
+    }
+  }
+}
 
 function SkillsSection() {
   return (
     <div className='xl:h-screen h-auto mx-auto max-w-7xl grid md:grid-cols-2 z-10'>
       {/* Left Section */}
-        <div className='flex flex-col justify-center items-center px-10 xl:pt-0 pt-20'>
+        <motion.div variants={leftVariants} initial='initial' whileInView='animate' className='flex flex-col justify-center items-center px-10 xl:pt-0 pt-20'>
           <div>
             <h5 className='text-[#ffd317] text-[23px] font-semibold mb-2 md:mb-0'>Mission</h5>
             <h3 className='text-[#eeeeec] text-[46px] font-bold mb-5 md:leading-none leading-[50px]'>Serving you great time</h3>
@@ -41,10 +73,10 @@ function SkillsSection() {
 
             <p className='text-[#eeeeec] text-lg font-sans w-[100%] sm:line-clamp-none'>As we continue to evolve, my goal remains the same — to create impactful digital solutions that drive long-term success.</p>
           </div>
-        </div>
+        </motion.div>
 
         {/* Right Section */}
-        <div className='flex flex-col justify-center items-center px-10 xl:pt-0 pt-20 xl:pb-0 pb-32'>
+        <motion.div variants={rightVariants} initial='initial' whileInView='animate' className='flex flex-col justify-center items-center px-10 xl:pt-0 pt-20 xl:pb-0 pb-32'>
           <div>
             <h5 className='text-[#ffd317] text-[23px] font-semibold mb-5'>My Skills</h5>
 
@@ -126,7 +158,7 @@ function SkillsSection() {
               <img data-tooltip-id="Ionic" data-tooltip-content="Ionic" src={Ionic} alt="Ionic" className='h-[40px] w-[40px]' />
             </div>
           </div>
-        </div>
+        </motion.div>
 
     </div>
   )

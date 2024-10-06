@@ -6,6 +6,38 @@ import Whatsapp from '../assets/Whatsapp.svg';
 import Telegram from '../assets/Telegram.svg';
 import Linkedin from '../assets/Linkedin.svg';
 import { MdOutlineLocationOn } from "react-icons/md";
+import {motion} from 'framer-motion';
+
+const imageVariants = {
+  initial:{
+    x: -80,
+    opacity: 0
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.8,
+      stiffness: 50
+    }
+  }
+}
+
+const detailsVariants = {
+  initial:{
+    y: 30,
+    opacity: 0
+  },
+  animate: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.8,
+      stiffness: 50,
+      delay: 0.1
+    }
+  }
+}
 
 function GetInTouch() {
   return (
@@ -21,14 +53,14 @@ function GetInTouch() {
       
       <div className='h-auto flex-col flex md:flex-row justify-center md:col p-10 w-[100%] overflow-x-hidden'>
         {/* Image */}
-        <div className='h-[450px] flex flex-col justify-center items-center mb-5'>
+        <motion.div variants={imageVariants} initial='initial' whileInView='animate' className='h-[450px] flex flex-col justify-center items-center mb-5'>
           <div className='h-[100%] rounded-md overflow-hidden'>
             <img src={Contact} alt="ContactImage" className='h-[100%] object-cover' />
           </div>
-        </div>
+        </motion.div>
 
         {/* Content */}
-        <div className='flex flex-col items-start font-medium px-0 md:px-10 py-10 w-[100%] md:w-[40%]'>
+        <motion.div variants={detailsVariants} initial='initial' whileInView='animate' className='flex flex-col items-start font-medium px-0 md:px-10 py-10 w-[100%] md:w-[40%]'>
           <h5 className='text-[#eeeeec] text-2xl font-normal text-left mb-3'><span className='text-[#ffd317]'>Reach Out</span> to Me</h5>
           <p className='text-[#eeeeec] font-sans font-light lg:w-[60%] w-[100%] mb-5'>Let's build something amazing together! Connect with me to discuss ideas, projects, or just say hello!</p>
 
@@ -61,7 +93,7 @@ function GetInTouch() {
               
             </div>
           </div>
-        </div>
+        </motion.div>
         
       </div>
     </div>

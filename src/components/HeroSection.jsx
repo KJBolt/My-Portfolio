@@ -6,6 +6,66 @@ import { ImLinkedin } from "react-icons/im";
 import { FaGithub } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
+import { motion} from 'framer-motion';
+
+const containerVariants = {
+    initial: {},
+    animate: {
+        staggerChildren: 0.1
+    }
+        
+}
+
+const imageVariants = {
+    initial:{
+        scale: 0.5,
+        opacity: 0
+    },
+    animate: {
+        scale: 1,
+        opacity: 1,
+        transition: {
+            duration: 1,
+            stiffness: 50
+        }
+    }
+}
+
+const textVariants = {
+    initial:{
+        x: -80,
+        opacity: 0
+    },
+    animate: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            duration: 1,
+            stiffness: 50,
+            delay: 0.3
+        }
+    }
+}
+
+const linksVariants = {
+    initial:{
+        x: 30,
+        opacity: 0
+    },
+    animate: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            type: "spring",
+            bounce: 0.4,
+            duration: 1,
+            stiffness: 50,
+            delay: 0.5
+        }
+    }
+}
+
+
 
 function HeroSection() {
     // When the component is mounted start fireworks
@@ -16,14 +76,14 @@ function HeroSection() {
     }, [])
     
   return (
-    <div className='hero lg:h-screen h-auto relative'>
+    <div className='hero lg:h-[700px] h-auto relative overflow-x-hidden'>
         <Navbar />
 
         {/* Fireworks container */}
         <div className='fireworks absolute top-0 left-0 w-[100%] h-[600px] z-0 overflow-hidden pointer-events-none'></div>
 
         {/* Social Media Links */}
-        <div className='absolute lg:flex  right-0 h-[600px] w-[70px] z-20 hidden flex-col justify-center'>
+        <motion.div variants={linksVariants} initial='initial' animate='animate' className='absolute lg:flex  right-0 h-[600px] w-[70px] z-20 hidden flex-col justify-center'>
             <div className='bg-[#f0c020] h-auto rounded-tl-md rounded-bl-md flex flex-col justify-center items-center py-8'>
                 <a href="https://www.linkedin.com/in/kenneth-rockson-35956119b/" target="_blank" rel="noopener noreferrer" className='mb-8'>
                     <ImLinkedin className='text-4xl hover:text-5xl transition-all ease-in-out' />
@@ -38,24 +98,24 @@ function HeroSection() {
                     <FaTelegramPlane className='text-4xl hover:text-5xl transition-all ease-in-out' />
                 </a>
             </div>
-        </div>
+        </motion.div>
 
 
         {/* Main Content */}
-        <div className=" h-auto lg:h-[600px] w-[100%] flex flex-col lg:flex-row z-10 overflow-hidden">
-            <div className='flex flex-col lg:w-[30%] w-[100%] lg:items-end sm:items-start items-center justify-center pt-16 lg:pt-0 px-10'>
-                <img className='rounded-full h-[200px] w-[200px] animate-bounce' src={Image} alt="Profile" />
-            </div>
+        <motion.div variants={containerVariants} initial='initial' animate='animate' className=" h-auto lg:h-[600px] w-[100%] flex flex-col lg:flex-row z-10 overflow-hidden">
+            <motion.div variants={imageVariants} className='flex flex-col lg:w-[30%] w-[100%] lg:items-end sm:items-start items-center justify-center pt-16 lg:pt-0 px-10'>
+                <img className='rounded-full h-[200px] w-[200px]  ' src={Image} alt="Profile" />
+            </motion.div>
             <div className='h-[100%] flex flex-col md:items-start items-center justify-center lg:w-[70%] pt-10 md:pt-0 w-[100%] pb-16 lg:pb-0'>
                 <div className='px-10 flex flex-col justify-center w-fit'>
-                    <div className="bg-[#f0bf2034] w-fit p-2 rounded-md mb-4">
+                    <motion.div variants={textVariants} className="bg-[#f0bf2034] w-fit p-2 rounded-md mb-4">
                         <p className='text-[#eeeeec] font-sans capitalize'><span>✌🏻</span> Hi there! I'm Kenneth Rockson</p>
-                    </div>
-                    <div className='mb-5'>
+                    </motion.div>
+                    <motion.div variants={textVariants} className='mb-5'>
                         <p className='text-[#eeeeec] text-3xl md:text-5xl mb-2 leading-[50px] md:leading-none'><span className='text-[#f0c020] text-5xl md:text-7xl font-bold'>Frontend Developer</span> </p>
-                        <p className='text-[#eeeeec] text-lg font-sans md:w-[85%] w-[100%] sm:line-clamp-none'>Passionate about crafting visually appealing interfaces that captivate users.</p>
-                    </div>
-                    <div>
+                        <p className='text-[#eeeeec] text-lg font-sans md:w-[85%] w-[100%] sm:line-clamp-none'>Who enjoys crafting visually appealing interfaces that captivate users.</p>
+                    </motion.div>
+                    <motion.div variants={textVariants}>
                         <div>
                         <a href="https://www.linkedin.com/in/kenneth-rockson-35956119b/" target="_blank" rel="noopener noreferrer" class="
                             group
@@ -99,11 +159,11 @@ function HeroSection() {
                             </span>
                         </a>
                         </div>
-                    </div>
+                    </motion.div>
                     
                 </div>
             </div>
-        </div>
+        </motion.div>
 
     </div>
   )

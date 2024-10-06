@@ -57,7 +57,7 @@ const containerAnimation = {
   offscreen: {},
   onscreen: {
     transition: {
-      staggerChildren: 0.15
+      staggerChildren: 0.1
     }
   }
 }
@@ -66,9 +66,9 @@ const childrenAnimation = {
   offscreen: { y: 100, opacity: 0 },
   onscreen: { y: 0, opacity: 1 },
   transition: {
-    type: 'spring',
-    bounce: 0.5,
-    duration: 0.3
+    duration: 1,
+    type: "spring",
+    bounce: 0.4,
   },
 }
 
