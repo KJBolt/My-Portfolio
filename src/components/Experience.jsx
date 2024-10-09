@@ -191,7 +191,7 @@ function Experience() {
                                 <p className='text-xs text-[#eeeeec] font-sans'>Freelance</p>
                             </div>
                             <div className='px-10'>
-                                <p className='text-lg font-semibold font-sans mb-1 text-[#eeeeec]'>Frontend Developer</p>
+                                <p className='text-lg font-semibold font-sans mb-1 text-[#eeeeec]'>Software Developer</p>
                                 <div className='flex gap-3 items-center '>
                                     <FaArrowsToDot className='text-[#ffd317] tex-3xl flex-shrink-0 mt-3 sm:mt-0' />
                                     <p className='text-md text-[#eeeeec] font-sans font-light mb-3'>
